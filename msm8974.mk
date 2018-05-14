@@ -50,8 +50,7 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libqcomvoiceprocessingdescriptors \
-    tinymix
+    libqcomvoiceprocessingdescriptors
 
 # Bluetooth
 PRODUCT_PACKAGES += \
