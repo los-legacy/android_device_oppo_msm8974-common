@@ -144,6 +144,7 @@ BOARD_USES_QCOM_HARDWARE := true
 
 # Radio
 TARGET_RIL_VARIANT := caf
+TARGET_USES_OLD_MNC_FORMAT := true
 
 # SELinux
 include device/qcom/sepolicy-legacy/sepolicy.mk
