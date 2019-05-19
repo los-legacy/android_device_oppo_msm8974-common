@@ -143,9 +143,6 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8974
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
-# DT2W
-TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
-
 # Properties
 TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
 
