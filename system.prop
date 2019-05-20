@@ -47,6 +47,7 @@ ro.opengles.version=196608
 sys.use_fifo_ui=1
 
 # Media
+debug.stagefright.ccodec=0
 mm.enable.sec.smoothstreaming=true
 media.aac_51_output_enabled=true
 
