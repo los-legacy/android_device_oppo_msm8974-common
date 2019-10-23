@@ -261,6 +261,9 @@ PRODUCT_PACKAGES += \
     wpa_supplicant_overlay.conf \
     p2p_supplicant_overlay.conf
 
+PRODUCT_PACKAGES += \
+	librecovery_updater_oppo
+    
 # Call the proprietary setup
 $(call inherit-product, vendor/oppo/msm8974-common/msm8974-common-vendor.mk)
 
