@@ -15,7 +15,7 @@
 #
 
 # inherit from OPPO common
--include device/oppo/common/BoardConfigCommon.mk
+# -include device/oppo/common/BoardConfigCommon.mk
 
 PLATFORM_PATH := device/oppo/msm8974-common
 
