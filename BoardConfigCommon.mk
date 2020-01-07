@@ -160,6 +160,8 @@ include device/qcom/sepolicy-legacy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy
 
+PLATFORM_SEPOLICY_VERSION_TEST := false
+
 # TWRP
 ifeq ($(WITH_TWRP),true)
 TARGET_RECOVERY_DEVICE_DIRS += $(PLATFORM_PATH)/twrp
