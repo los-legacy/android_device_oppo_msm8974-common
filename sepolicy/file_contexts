@@ -7,3 +7,6 @@
 # NV backup partitions
 /dev/block/platform/msm_sdcc\.1/by-name/oppodycnvbk                                 u:object_r:nvbackup_block_device:s0
 /dev/block/platform/msm_sdcc\.1/by-name/oppostanvbk                                 u:object_r:nvbackup_block_device:s0
+
+# Firmware files
+/firmware(/.*)?                                         u:object_r:firmware_file:s0
