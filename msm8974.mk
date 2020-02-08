@@ -261,6 +261,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
 	librecovery_updater_oppo
+
+# Treble
+PRODUCT_FULL_TREBLE_OVERRIDE := true
     
 # Call the proprietary setup
 $(call inherit-product, vendor/oppo/msm8974-common/msm8974-common-vendor.mk)
